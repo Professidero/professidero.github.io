@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.css" rel="stylesheet">
+  <!-- Additional CSS -->
+  <link href="css/collapsible_project.css" rel="stylesheet">
+  <!-- JavaScript to include HTML snippets -->
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Portfolio - Professidero</title>
+</head>
+
+<body>
+  <div class="row">
+
+    <div w3-include-html="projects/streamlauncher.html"></div>
+    <div w3-include-html="projects/demonio.html"></div>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////
+
+       ######  ######## ########         ##          ###    ##     ## ##    ##
+      ##    ##    ##    ##     ##        ##         ## ##   ##     ## ###   ##
+      ##          ##    ##     ##        ##        ##   ##  ##     ## ####  ##
+       ######     ##    ########         ##       ##     ## ##     ## ## ## ##
+            ##    ##    ##   ##          ##       ######### ##     ## ##  ####
+      ##    ##    ##    ##    ##  ###    ##       ##     ## ##     ## ##   ### ###
+       ######     ##    ##     ## ###    ######## ##     ##  #######  ##    ## ###
+
+////////////////////////////////////////////////////////////////////////////////
+-->
+
+<div class="col s12 m6 l4">
+<ul class="collapsible hoverable">
+<li class="card">
+
+  <div class="collapsible-header">
+    <div class="card-image">
+      <img src="images/StreamLauncher/StreamLauncher_cover.png"/>
+      <span class="card-title yellow-text text-darken-3">StreamLauncher</span>
+    </div>
+  </div>
+
+  <div class="collapsible-body">
+    <div class="card-content">
+
+      <div class="card">
+        <div class="card-tabs">
+
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a class="active" href="#streamlauncher_description">Description</a></li>
+            <li class="tab"><a href="#streamlauncher_gallery">Gallery</a></li>
+          </ul>
+
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="streamlauncher_description">
+            <p>Open a stream on your favorite desktop video player (like VLC) and manage all your favorite streams easily</p>
+            <br/>
+             <ul class="collection">
+              <li class="collection-item">GUI for <a target="_blank" href="https://github.com/chrippa/livestreamer/">livestreamer</a></li>
+              <li class="collection-item">Open a stream without dealing with any system console<li>
+              <li class="collection-item">Manage a list of your favorite streams</li>
+              <li class="collection-item">Open a stream chat in your browser from this software</li>
+            </ul>
+            <br/>
+            <p><strong>Context :</strong>           Personal project</p>
+            <p><strong>Type :</strong>              GUI for a CLI-based software</p>
+            <p><strong>Platform :</strong>          PC, tested on Windows 7</p>
+            <p><strong>When was it made :</strong>  2015</p>
+            <p><strong>Team :</strong>              Alone</p>
+            <p><strong>Technology :</strong>        Ruby and <a target="_blank" href="http://shoesrb.com/downloads/">Shoes</a></p>
+            <p><strong>Source :</strong> <a target="_blank" href="https://github.com/Professidero/StreamLauncher/">Github repository</a></p>
+            <br/>
+            <p><strong>Note :</strong>              Later, another version was made but is not even quite achieved.
+                                                    It is available <a target="_blank" href="https://github.com/Professidero/stream_launcher">in this repository</a></p>
+            <br/>
+            <p><strong>Note 2 :</strong>            From now on, Twitch streams can't be opened anymore by livestreamer without a token and livestreamer
+                                                    is no longer maintained, resulting in my program not being able to do his main job anymore</p>
+          </div>
+
+          <div class="gallery_" id="streamlauncher_gallery">
+
+            <div class="row">
+              <div class="col s4">
+                <img class="materialboxed" src="images/StreamLauncher/StreamLauncher_1.png"/>
+              </div>
+              <div class="col s4">
+                <img class="materialboxed" src="images/StreamLauncher/StreamLauncher_2.png"/>
+              </div>
+              <div class="col s4"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+</ul>
+</div>
+
+
+<!--
+////////////////////////////////////////////////////////////////////////////////
+
+        ########  ######## ##     ##  #######  ##    ## ####  #######
+        ##     ## ##       ###   ### ##     ## ###   ##  ##  ##     ##
+        ##     ## ##       #### #### ##     ## ####  ##  ##  ##     ##
+        ##     ## ######   ## ### ## ##     ## ## ## ##  ##  ##     ##
+        ##     ## ##       ##     ## ##     ## ##  ####  ##  ##     ##
+        ##     ## ##       ##     ## ##     ## ##   ###  ##  ##     ##
+        ########  ######## ##     ##  #######  ##    ## ####  #######
+
+////////////////////////////////////////////////////////////////////////////////
+-->
+
+<div class="col s12 m6 l4">
+<ul class="collapsible hoverable">
+<li class="card">
+
+  <div class="collapsible-header">
+    <div class="card-image">
+      <img src="images/Demonio/Demonio_cover.png"/>
+      <span class="card-title yellow-text text-darken-3">Demonio</span>
+    </div>
+  </div>
+
+  <div class="collapsible-body">
+    <div class="card-content">
+
+      <div class="card">
+        <div class="card-tabs">
+
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a class="active" href="#demonio_description">Description</a></li>
+            <li class="tab"><a href="#demonio_gallery">Gallery</a></li>
+          </ul>
+
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="demonio_description">
+            <p>Choose your fighter to explore a maze and kill all the monsters !</p>
+            <br/>
+             <ul class="collection">
+              <li class="collection-item">You earn gold and experience when you killed an enemy</li>
+              <li class="collection-item">You can move in the maze using number as an input<li>
+              <li class="collection-item">When an enemy is near you, he will start chasing you</li>
+              <li class="collection-item">Fights are automatically solved</li>
+            </ul>
+            <br/>
+            <p><strong>Context :</strong>           University small project</p>
+            <p><strong>Type :</strong>              Rogue-like (turn-based)</p>
+            <p><strong>Platform :</strong>          System console, tested on Windows console</p>
+            <p><strong>When was it made :</strong>  2013</p>
+            <p><strong>Team :</strong>              Alone</p>
+            <p><strong>Technology :</strong>        Java (with Eclipse IDE)</p>
+            <p><strong>Source :</strong> <a target="_blank" href="https://github.com/Professidero/Demonio/">Github repository</a></p>
+          </div>
+
+          <div class="gallery_" id="demonio_gallery">
+
+            <div class="row">
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_1.png"/>
+              </div>
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_2.png"/>
+              </div>
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_3.png"/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_4.png"/>
+              </div>
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_5.png"/>
+              </div>
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_6.png"/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_7.png"/>
+              </div>
+              <div class="col s4">
+                <img class="materialboxed" src="images/Demonio/Demonio_8.png"/>
+              </div>
+              <div class="col s4"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+</ul>
+</div>
+
+
+
+  </div>
+  <!--JavaScript at end of body for optimized loading-->
+  <script>
+    w3IncludeHTML();
+  </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.js"></script>
+</body>
+</html>

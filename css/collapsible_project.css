@@ -1,0 +1,60 @@
+li.card div.collapsible-header
+{
+  padding: 0;
+  border-width: 0;
+}
+
+li.card div.collapsible-header .card-image
+{
+  width:100%;
+}
+
+li.card div.collapsible-header .card-image .card-title
+{
+  font-weight: 900;
+}
+
+li.card div.collapsible-body
+{
+  padding: 0;
+  border-width: 0;
+}
+
+div.collapsible-body > .card-content
+{
+  padding: 0;
+}
+
+div.card-content > .card
+{
+  margin: 0;
+}
+
+.collapsible
+{
+  border-width: 0;
+}
+
+
+
+/* These properties make images on a same row have the same height : */
+.gallery_ .row
+{
+  display: flex;
+}
+
+.gallery_ .col .material-placeholder
+{
+  height: 100%;
+}
+
+.gallery_ .col img
+{
+  width: 100%;
+  height: 100%;
+}
+
+div.card-content strong
+{
+  font-weight: 900;
+}

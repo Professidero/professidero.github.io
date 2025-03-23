@@ -1,0 +1,16 @@
+#welcome h1
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#welcome .divider
+{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#welcome a
+{
+  font-weight: bold;
+}
